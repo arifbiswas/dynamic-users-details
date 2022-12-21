@@ -1,0 +1,58 @@
+.bg-custom-color{
+    background-color: #C5DFFF;
+    width: 100%;
+    height: 70px;
+}
+.custom-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.loading-hight{
+    height: 300px;
+}
+
+/* users  */
+.custom-color-users{
+    background-color: #ECECEC;
+    width: 100%;
+    height: 66px;
+}
+.profile-size{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+.underline-none{
+    text-decoration: none;
+    color: rgb(74, 74, 74);
+}
+/* userInfo  */
+.custom-picture-size{
+    width: 156px;
+    height: 156px;
+    border-radius: 50%;
+}
+.custom-color-description{
+    background-color: #ECECEC;
+}
+.bg-input-color{
+    background-color: #ECECEC important!;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 500px) { 
+    .custom-grid{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+   
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    
+ }
